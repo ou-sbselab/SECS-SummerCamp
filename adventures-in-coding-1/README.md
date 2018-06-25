@@ -1,6 +1,5 @@
-# Oakland University - SECS Summer Camp 
-### Summer, 2018
-### Erik Fredericks
+# Oakland University - SECS Summer Camp (Adventures in Coding 1)
+### Erik Fredericks -- Summer, 2018
 
 This series of Python scripts demonstrates the concepts used throughout Adventures in Coding 1, a module where participants are taught the basics of programming using Python.  
 
