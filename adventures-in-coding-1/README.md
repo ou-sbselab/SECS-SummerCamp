@@ -5,6 +5,8 @@ This series of Python scripts demonstrates the concepts used throughout Adventur
 
 For each file, a bulleted list of key concepts is presented.
 
+** This needs to be updated **
+
 ### hello_world.py
 
 * Printing to the screen
