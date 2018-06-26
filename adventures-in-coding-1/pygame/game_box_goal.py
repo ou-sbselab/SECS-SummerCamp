@@ -2,9 +2,9 @@
 ## Adventures in Coding 1
 ## Summer 2018
 ## Erik Fredericks
-## game_box_move.py
+## game_box_goal.py
 
-## Move the box around the screen
+## Move the box around the screen towards a goal
 ## Based on: https://nerdparadise.com/programming/pygame/part1
 
 import pygame
@@ -58,8 +58,14 @@ while not done:
 
   # Clear the screen
   screen.fill((0,0,0))
-  # Draw a square
+  # Draw the squares
+  pygame.draw.rect(screen, (0,255,0), pygame.Rect(400-70, 300-70, 70, 70))
+  pygame.draw.rect(screen, (0,155,0), pygame.Rect(400-65, 300-65, 60, 60))
   pygame.draw.rect(screen, color, pygame.Rect(position[0], position[1], 60, 60))
+
+  # Win condition -- just need to check top left corner of our square
+  if ((position[0] > (400-65)) and (position[1] > (300-65))):
+    done = True
 
   # Flip --> make updates to screen visible
   pygame.display.flip()
