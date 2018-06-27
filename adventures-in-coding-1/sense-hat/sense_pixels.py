@@ -2,9 +2,9 @@
 ## Adventures in Coding 1
 ## Summer 2018
 ## Erik Fredericks
-## sense_letters.py
+## sense_pixels.py
 
-## Let's play with pixels (based on projects.raspberrypi.org)
+## This file senses the environment with a few various sensors.
 from sense_hat import SenseHat
 from time import sleep
 import random
