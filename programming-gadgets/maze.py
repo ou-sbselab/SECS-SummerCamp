@@ -111,7 +111,7 @@ while not done:
   else:
     level[y][x] = o
 
-    sleep(0.05)
+    sleep(0.15)
 
     # Flatten the maze
     sh.set_pixels(sum(level, []))
